@@ -1,0 +1,58 @@
+html{
+  font-family: 'Pacifico', cursive;
+}
+form{
+text-align:center;
+}
+h1{
+  text-align: center;
+}
+table{
+   border-collapse: collapse;
+}
+.cell {
+height : 100px;
+width : 100px;
+}
+.v {
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+.h{
+  border-top: 5px solid black;
+  border-bottom:  5px solid black;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px; /* margin is -0.5 * dimension */
+  margin-top: -150px;
+}
+td:hover{
+  background-color: #d4f6f7;
+  cursor: pointer;
+}
+td{
+  font-size: 48px;
+  text-align: center;
+  vertical-align: middle;
+}
+#result{
+  font-size: 24px;
+  text-align: center;
+}
+#result:hover{
+  background-color: #ffffff;
+}
+.reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+#r1:checked ~ .reveal-if-active,
+input[type="checkbox"]:checked ~ .reveal-if-active {
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :( */
+  overflow: visible;
+}
