@@ -1,3 +1,4 @@
+/*using google fonts*/
 html{
   font-family: 'Pacifico', cursive;
 }
@@ -7,6 +8,7 @@ text-align:center;
 h1{
   text-align: center;
 }
+/*border is collapsed for each individual cell*/
 table{
    border-collapse: collapse;
 }
@@ -22,6 +24,7 @@ width : 100px;
   border-top: 5px solid black;
   border-bottom:  5px solid black;
 }
+/*css to put something at the exact center of the page*/
 .center{
   position: absolute;
   top: 50%;
@@ -45,6 +48,7 @@ td{
 #result:hover{
   background-color: #ffffff;
 }
+/*Code to reveal the radio buttons according to some condition*/
 .reveal-if-active {
   opacity: 0;
   max-height: 0;
